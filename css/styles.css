@@ -1,0 +1,188 @@
+/*************** TAG SELECTOR ***************/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*************** SECTIONS SELECTOR ***************/
+
+/* Title Section */
+
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  margin: 0 0 0 40px;
+}
+
+.top-download-button-apple {
+  margin: 20px 10px 90px 0;
+}
+
+.top-download-button-google {
+  margin: 20px -10px 90px 0;
+}
+
+.iphone6-img {
+  width: 60%;
+  position: absolute;
+  right: 28%;
+  transform: rotate(30deg);
+}
+
+/* Features Section */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.feature-section {
+  background-color: #fff;
+  padding: 80px 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.feature-icons {
+  color: #ef8172;
+  margin-bottom: 15px;
+}
+
+.feature-icons:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+.press-logo {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call Action Section */
+
+#call-action {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+
+.call-action-text {
+  color: #fff;
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+.bottom-button {
+  margin: 30px 10px 0;
+}
+
+/* Footer Section */
+
+#footer {
+  background-color: #fff;
+  padding: 70px 0 20px 0;
+}
+
+.footer-text {
+  font-size: 0.8rem;
+}
+
+.footer-icon {
+  padding: 20px 10px;
+}
+
+/*************** MEDIA QUERY SELECTOR ***************/
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone6-img {
+    padding-bottom: 50px;
+    position: static;
+    transform: rotate(0);
+  }
+}
